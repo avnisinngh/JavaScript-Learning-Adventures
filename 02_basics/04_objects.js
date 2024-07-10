@@ -41,11 +41,41 @@ const users = [
 ]
 
 users[1].id
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));  // check is property is present or not
+// console.log(tinderUser.hasOwnProperty('isLogged'));  // check is property is present or not
 
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Avni"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : Instructor} = course
+
+//console.log(courseInstructor);
+console.log(Instructor);
+
+// json
+
+// {
+//    "name": "avni",
+//    "coursename": "js in hindi",
+//    "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
+  
